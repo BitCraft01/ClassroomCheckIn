@@ -1,0 +1,145 @@
+/* --------------------------------------------------
+    GLOBAL STYLES
+-------------------------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Centered container for forms */
+.container {
+    width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    margin: 80px auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Headers */
+h1, h2, h3 {
+    text-align: center;
+    color: #222;
+}
+
+/* --------------------------------------------------
+    NAVBAR
+-------------------------------------------------- */
+
+.navbar {
+    width: 100%;
+    background: #111;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #00aaff;
+}
+
+/* --------------------------------------------------
+    FORM ELEMENTS
+-------------------------------------------------- */
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+/* --------------------------------------------------
+    BUTTONS
+-------------------------------------------------- */
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #111;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+/* For buttons used in dashboard (side-by-side) */
+.btn-small {
+    width: 200px;
+    margin: 10px;
+}
+
+/* --------------------------------------------------
+    DASHBOARD / MAIN PAGE
+-------------------------------------------------- */
+
+.dashboard {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #111;
+    color: white;
+}
+
+/* --------------------------------------------------
+    ALERTS / MESSAGES
+-------------------------------------------------- */
+
+.alert {
+    padding: 12px;
+    background: #ffdddd;
+    border-left: 5px solid red;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.success {
+    background: #ddffdd;
+    border-left: 5px solid green;
+}
